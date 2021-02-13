@@ -1,0 +1,8 @@
+Eu vou querer que você faça uma Pokedex como na imagem "resultado.jpge" e então tenha:
+
+1. Estrutura do HTML
+2. Fundo de background do pokemon pode pegar com url do servidor exe: www.google.com/img/charmander.png
+3. Fundo tela cheia
+4. Div/tabela de Pokedex centralizada na tela
+5. Deixa o conteudo semelhante (nao precisa ser igual)
+6. Chamar a imagem do charmander dentro da pasta imgs
