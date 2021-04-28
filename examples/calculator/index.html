@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../vendor/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -15,40 +15,48 @@
             <div class="mx-auto" style="width: 200px">
                 <h1>Calculator</h1>
             </div>
-            <textarea class="col-lg-12" rows="5" disabled></textarea>
+            <textarea id="panel" class="col-lg-12" rows="5" disabled></textarea>
         </div>
+
+        <div class="row mt-2">
+            <button class="col-lg-2 offset-lg-3 btn btn-secondary insert">(</button>
+            <button class="col-lg-2 offset-lg-1 btn btn-secondary insert">)</button>
+            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">+</button>
+        </div>
+
         <div class="row mt-2">
             <button class="col-lg-2 btn btn-primary insert">7</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">8</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">9</button>
-            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">/</button>
+            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">-</button>
         </div>
 
         <div class="row mt-2">
             <button class="col-lg-2 btn btn-primary insert">4</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">5</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">6</button>
-            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">x</button>
+            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">*</button>
         </div>
 
         <div class="row mt-2">
             <button class="col-lg-2 btn btn-primary insert">1</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">2</button>
             <button class="col-lg-2 offset-lg-1 btn btn-primary insert">3</button>
-            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">-</button>
+            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">/</button>
         </div>
 
         <div class="row mt-2">
             <button class="col-lg-2 btn btn-primary insert">0</button>
             <button class="col-lg-2 offset-lg-1 btn btn-secondary insert">.</button>
-            <button class="col-lg-2 offset-lg-1 btn btn-secondary">=</button>
-            <button class="col-lg-2 offset-lg-2 btn btn-secondary insert">+</button>
+            <button id="result" class="col-lg-2 offset-lg-1 btn btn-success">=</button>
+            <button id="clean" class="col-lg-2 offset-lg-2 btn btn-danger">Clean</button>
         </div>
     </div>
 
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/popper.min.js"></script>
+    <script src="../vendor/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../vendor/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/js/popper.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
